@@ -1,0 +1,7 @@
+SCAF variant,Runs,Fresh RMSE,s.d.,Stale RMSE,s.d.
+all modalities,10,0.0348,0.0014,0.0423,0.0013
+without IMD,5,0.0371,0.0015,0.0496,0.0010
+without POWER,5,0.0361,0.0028,0.0435,0.0022
+without Sentinel-1,5,0.0352,0.0015,0.0444,0.0023
+without SMAP,5,0.0411,0.0026,0.0548,0.0018
+without staleness gate,10,0.0351,0.0016,0.0429,0.0016

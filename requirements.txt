@@ -1,0 +1,11 @@
+# Python 3.13 (tested). CPU-only execution is sufficient.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+scikit-learn==1.9.1
+torch==2.14.1
+matplotlib==3.11.2
+xarray==2026.9.0
+netCDF4==1.7.4
+itur==0.4.0
+openpyxl==3.1.5

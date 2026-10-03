@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.blg
+manuscript/*.bbl
+manuscript/*.synctex.gz
+.ipynb_checkpoints/

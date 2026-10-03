@@ -1,0 +1,13 @@
+Feature (log scale),KS statistic,KS $p$-value
+duration,0.026,0.97
+orig\_bytes,0.018,1.00
+resp\_bytes,0.010,1.00
+orig\_pkts,0.014,1.00
+resp\_pkts,0.019,1.00
+orig\_ip\_bytes,0.021,0.99
+resp\_ip\_bytes,0.019,1.00
+fwd\_pkts\_payload.avg,0.025,0.99
+flow\_iat.avg,0.027,0.97
+flow\_pkts\_per\_sec,0.035,0.86
+"Correlation distance (Frobenius, relative)",0.114,--
+Classifier two-sample AUC,0.889,--

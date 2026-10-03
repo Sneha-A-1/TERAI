@@ -1,0 +1,10 @@
+Dataset,Modality,Coverage,Samples,Features,Role,Type
+SMAP SPL3SMP\_E v6 \cite{oneill2023smap},passive microwave,regional (722 cells),565 of 762 days,"soil moisture, VWC, $T_s$, retrieval fraction",target \& input,real
+IMD gridded \cite{pai2014imd},gauge analysis,5 districts,daily (5480 rows),"rain, 3/7-day rain, $T_{\max}$, $T_{\min}$",input,real
+NASA POWER \cite{sparks2018nasapower},"reanalysis, satellite",4 districts$^{a}$,daily (762/district),"T2M, DTR, RH, rain, irradiance, wind","input, PV energy",real
+Sentinel-1 VV/VH \cite{torres2012sentinel1},C-band SAR,5 districts,738 valid of 810 rows,"VV, VH, VV$-$VH, $\Delta$VV",input,real
+ERA5-Land \cite{munoz2021era5},reanalysis,"99 cells, Dehradun","6-hourly, 10 months 2024",soil water layer 1,validation only,real
+Mendeley IoT log \cite{kathole2024mendeley},in-field sensors,one farm,"100 readings, 30 min",8 sensor channels,timing calibration,real
+Farm-Flow \cite{ferreira2024farmflowdata},network flows,testbed,545 unique flows used,"10 flow features, 9 classes",traffic calibration,real subset
+Landsat 8/9 C2 L2 metadata,optical (metadata),5 scenes,Oct. 2022,raster dimensions,payload sizes,real
+Synthetic flows and devices,generated,rural 6G cells,seeded,"copula flows, timing",RAN workloads,synthetic

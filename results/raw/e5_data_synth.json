@@ -1,0 +1,154 @@
+{
+ "data": {
+  "panel_days": 762,
+  "smap_days_any": 565,
+  "s1_raw_rows": 810,
+  "s1_valid_acq": {
+   "Dehradun": 151,
+   "Haridwar": 112,
+   "Nainital": 112,
+   "Almora": 175,
+   "Pithoragarh": 188
+  },
+  "power_identical_pairs": [
+   [
+    "Almora",
+    "Nainital"
+   ]
+  ],
+  "rain_event_rate": {
+   "Dehradun": 0.15223097801208496,
+   "Haridwar": 0.05905511975288391,
+   "Nainital": 0.06824146956205368,
+   "Almora": 0.06692913174629211,
+   "Pithoragarh": 0.15223097801208496
+  },
+  "era5_smap_pearson": 0.6494645724649407,
+  "era5_smap_n": 181,
+  "s1_valid_rows": 738,
+  "s1_empty_rows": 72,
+  "smap_overpass_days_am": 376,
+  "smap_recommended_frac": 0.06578579006306359,
+  "smap_retrieved_frac": 0.5558510638297872,
+  "imd_rows": 5480
+ },
+ "farmflow_records": 545,
+ "farmflow_class_counts": {
+  "Port_Scanning": 242,
+  "BotNet_DDOS": 64,
+  "Normal": 59,
+  "Arp_Spoofing": 46,
+  "UDP_Flood": 35,
+  "TCP_Flood": 31,
+  "HTTP_Flood": 30,
+  "ICMP_Flood": 27,
+  "MQTT_Flood": 11
+ },
+ "integer_features": [
+  "orig_bytes",
+  "resp_bytes",
+  "orig_pkts",
+  "resp_pkts",
+  "orig_ip_bytes",
+  "resp_ip_bytes"
+ ],
+ "fidelity": {
+  "ks": {
+   "duration": 0.026055045871559622,
+   "orig_bytes": 0.01834862385321103,
+   "resp_bytes": 0.010275229357798187,
+   "orig_pkts": 0.013577981651376159,
+   "resp_pkts": 0.018715596330275197,
+   "orig_ip_bytes": 0.02091743119266053,
+   "resp_ip_bytes": 0.018715596330275218,
+   "fwd_pkts_payload.avg": 0.024587155963302743,
+   "flow_iat.avg": 0.027155963302752308,
+   "flow_pkts_per_sec": 0.03486238532110094
+  },
+  "ks_p": {
+   "duration": 0.9734960930872102,
+   "orig_bytes": 0.99834102600896,
+   "resp_bytes": 0.9999999999977411,
+   "orig_pkts": 0.9999782914360852,
+   "resp_pkts": 0.9990070614785532,
+   "orig_ip_bytes": 0.9851220221178705,
+   "resp_ip_bytes": 0.999540698322531,
+   "fwd_pkts_payload.avg": 0.9902025726786153,
+   "flow_iat.avg": 0.9704818827474571,
+   "flow_pkts_per_sec": 0.8595410504326161
+  },
+  "corr_frobenius": 0.11445101030532485,
+  "c2st_auc": 0.889348371349213,
+  "c2st_auc_sd": 0.013175297681956931
+ },
+ "mendeley": {
+  "n_intervals": 99,
+  "median_s": 18.0,
+  "mean_s": 18.343434343434343,
+  "min_s": 13.0,
+  "max_s": 37.0
+ },
+ "telemetry_bytes": {
+  "real_median": 720.0,
+  "synthetic_median": 724.0
+ },
+ "landsat": [
+  {
+   "product": "LC08_L2SP_146039_20221029_20221108_02_T1",
+   "date": "2022-10-29",
+   "cloud_cover": 1.92,
+   "lines": 7921,
+   "samples": 7781,
+   "cell_m": 30.0,
+   "sr_bytes": 862866214,
+   "bytes_per_km2_per_band": 2222.222222222222
+  },
+  {
+   "product": "LC08_L2SP_146040_20221029_20221108_02_T1",
+   "date": "2022-10-29",
+   "cloud_cover": 2.47,
+   "lines": 7681,
+   "samples": 7531,
+   "cell_m": 30.0,
+   "sr_bytes": 809838554,
+   "bytes_per_km2_per_band": 2222.222222222222
+  },
+  {
+   "product": "LC08_L2SP_148038_20221027_20221107_02_T1",
+   "date": "2022-10-27",
+   "cloud_cover": 0.39,
+   "lines": 7781,
+   "samples": 7641,
+   "cell_m": 30.0,
+   "sr_bytes": 832364694,
+   "bytes_per_km2_per_band": 2222.222222222222
+  },
+  {
+   "product": "LC09_L2SP_147039_20221028_20230324_02_T1",
+   "date": "2022-10-28",
+   "cloud_cover": 0.03,
+   "lines": 7721,
+   "samples": 7581,
+   "cell_m": 30.0,
+   "sr_bytes": 819460614,
+   "bytes_per_km2_per_band": 2222.222222222222
+  },
+  {
+   "product": "LC09_L2SP_147040_20221028_20230324_02_T1",
+   "date": "2022-10-28",
+   "cloud_cover": 1.89,
+   "lines": 7731,
+   "samples": 7591,
+   "cell_m": 30.0,
+   "sr_bytes": 821604294,
+   "bytes_per_km2_per_band": 2222.222222222222
+  }
+ ],
+ "s1_subset_mb": {
+  "Dehradun": 17.116031470329588,
+  "Haridwar": 17.180443851877857,
+  "Nainital": 17.277274571480408,
+  "Almora": 17.240343648401733,
+  "Pithoragarh": 17.24277011585549
+ }
+}

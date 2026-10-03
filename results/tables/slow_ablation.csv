@@ -1,0 +1,8 @@
+Variant,Runs,RMSE,s.d.,Dec. err.,Energy,Dropped,Reward,s.d.
+CoVIR (full),5,0.0332,0.0001,0.152,2.89,0.060,-0.0187,0.0008
+without BC initialization,5,0.0343,0.0014,0.153,3.76,0.006,-0.0367,0.0187
+without checkpoint selection,5,0.0332,0.0001,0.151,2.89,0.061,-0.0192,0.0011
+without Lagrangian (fixed penalties),5,0.0334,0.0001,0.148,2.38,0.047,-0.0199,0.0011
+without VoI features (and BC),5,0.0357,0.0012,0.185,5.21,0.006,-0.0603,0.0150
+decentralized critic,5,0.0333,0.0000,0.146,2.59,0.058,-0.0202,0.0004
+cross-fitted training simulator,5,0.0333,0.0002,0.150,2.78,0.071,-0.0200,0.0018

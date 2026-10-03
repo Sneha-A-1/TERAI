@@ -1,0 +1,8 @@
+Value,Recommended Quality,Retrieval Attempted,Retrieval Successful,Retrieval Successful_FT,Undefined
+0,Soil moisture retrieval has recommended quality,Soil moisture retrieval was attempted,Soil moisture retrieval was successful,Freeze/thaw state retrieval was successful,Not used
+1,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was attempted,Soil moisture retrieval was successful,Freeze/thaw state retrieval was successful,Not used
+5,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was attempted,Soil moisture retrieval was not successful,Freeze/thaw state retrieval was successful,Not used
+7,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was skipped,Soil moisture retrieval was not successful,Freeze/thaw state retrieval was successful,Not used
+9,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was attempted,Soil moisture retrieval was successful,Freeze/thaw state retrieval was not successful,
+13,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was attempted,Soil moisture retrieval was not successful,Freeze/thaw state retrieval was not successful,
+15,Soil moisture retrieval doesn't have recommended quality,Soil moisture retrieval was skipped,Soil moisture retrieval was not successful,Freeze/thaw state retrieval was not successful,
